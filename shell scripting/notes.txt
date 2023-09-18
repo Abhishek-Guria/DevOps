@@ -1,2 +1,30 @@
-How to analyze the health of node
-ans . By using the top command 
+Here are some ways to analyze the health of a node in a Linux system:
+
+- The 'top' command or the 'df' command can be used to check system performance.
+- The 'nproc' command can be used to find the number of CPUs in the system.
+- The 'free' command is helpful for checking memory usage.
+
+One commonly used command when creating or using shell scripts is 'set -x'. Here, the '-x' flag enables debug mode, which shows the output of each command and the command executed in the output console.
+
+To check the processes running in the background, the 'ps -ef' command can be used. This command lists all the processes with relevant details.
+
+use of pipe symbol ' | '  or command in the shell scripting like 
+
+any script | grep  error
+
+it is just to give the output of the first command to the second command which will take as the input and processes further and give the results 
+
+
+## One question may arise in the interview i.e 
+why date | echo " date is " doesn't print the date is then date 
+
+then the reason is date is the default command and due to this it is giving the output to stdin and here pipe symbol takes the output only from stdout 
+
+
+'awk' command is a very powerful command 
+this is generally used with the grep command to basically filter out the particular column info 
+
+set -e is used while creating the script so that whenever script gets an error while it executes any command or command itself is an error i.e.  unknown command  it automatically stops further execution 
+
+set -o is pipefail 
+
