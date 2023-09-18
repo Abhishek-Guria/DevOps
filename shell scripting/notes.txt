@@ -1,0 +1,2 @@
+How to analyze the health of node
+ans . By using the top command 
