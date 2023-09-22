@@ -1,0 +1,1 @@
+the way how DevOps engineer manage the configuration of the server is configuration management
